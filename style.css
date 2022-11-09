@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+section {
+    display: grid;
+}
+
+.title {
+    margin: 20px auto;
+}
+
+.underline {
+    width: 50px;
+    height: 2px;
+    background-color: blue;
+    margin: 5px auto 15px auto;
+}
+
+article {
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px lightpink;
+    padding: 15px 5px;
+    margin-top: 20px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+#job {
+    color: blue
+}
+.prev-btn, .next-btn {
+    font-size: 1.25rem;
+    margin: 2px 5px;
+}
+.random {
+    margin: 15px auto;
+}
+#random-btn {
+    background: rgb(0, 204, 255);
+    border-radius: 10%;
+}
